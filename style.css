@@ -17,3 +17,14 @@
 .language-switcher .gtranslate_wrapper{display:flex;align-items:center;min-height:30px}
 .language-switcher .gt_selector{max-width:min(240px,70vw);padding:7px 10px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--navy);font:inherit;cursor:pointer}
 .language-switcher .gt_selector:focus{outline:2px solid var(--aqua);outline-offset:2px}
+
+
+/* Présentation adaptée aux téléphones : titre lisible et numéro facile à toucher */
+.page-hero h1{line-height:1.12}
+.phone-contact{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 14px;margin-top:6px;border-radius:12px;background:#e9f4f2;color:var(--navy);text-decoration:none;white-space:nowrap}
+@media(max-width:720px){
+.page-hero{padding:45px 0 36px}
+.page-hero h1{font-size:clamp(30px,8vw,38px);line-height:1.12}
+.page-hero p:not(.eyebrow){font-size:16px;line-height:1.6}
+.phone-contact{display:flex;width:100%;box-sizing:border-box;margin-top:12px;min-height:52px;font-size:18px}
+}
