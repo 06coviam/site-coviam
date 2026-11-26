@@ -28,3 +28,14 @@
 .page-hero p:not(.eyebrow){font-size:16px;line-height:1.6}
 .phone-contact{display:flex;width:100%;box-sizing:border-box;margin-top:12px;min-height:52px;font-size:18px}
 }
+
+
+/* Avis Google : cartes de témoignages */
+.reviews-section{padding-top:20px}
+.reviews-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:30px}
+.review-card{padding:24px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 10px 28px rgba(14,53,71,.05)}
+.review-stars{color:#e3a127;font-size:21px;letter-spacing:3px;line-height:1.2}
+.review-text{margin:16px 0;color:var(--ink);font-size:15px;line-height:1.7;white-space:pre-line}
+.review-author{margin:16px 0 0;font-weight:800;color:var(--navy)}
+.review-source{margin:3px 0 0;color:var(--muted);font-size:12px}
+@media(max-width:720px){.reviews-grid{grid-template-columns:1fr;gap:14px}.review-card{padding:20px}.review-text{font-size:14px}}
